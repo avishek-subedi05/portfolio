@@ -15,7 +15,7 @@ const SocialLinks = () => {
     <div className="social-links">
       <h3>Connect with Me</h3>
       <div className="icons">
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+        <a href="https://github.com/avishek-subedi05" target="_blank" rel="noreferrer">
           <FaGithub /> GitHub
         </a>
         <a href="mailto:avisheksubedi05@gmail.com">
