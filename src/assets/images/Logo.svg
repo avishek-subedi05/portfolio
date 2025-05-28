@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill:rgb(29, 41, 70); }       /* Dark slate background */
+    .main { fill: #38bdf8; }     /* Sky blue letter */
+    .bar { fill: #0ea5e9; }      /* Accent bar */
+  </style>
+  <rect width="120" height="120" rx="20" class="bg"/>
+  <polygon points="60,20 90,100 75,100 60,60 45,100 30,100" class="main"/>
+  <rect x="42" y="65" width="36" height="6" rx="2" class="bar"/>
+</svg>

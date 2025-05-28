@@ -1,0 +1,82 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10% 80px;
+  background: linear-gradient(to right, #f8fafc, #eff6fa);
+  flex-wrap: wrap;
+  gap: 2rem;
+  animation: fadeIn 1s ease-in;
+  /* height: 100vh;                   optional  */
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #38bdf8;
+  animation: typing 2s steps(30, end), blink 0.75s step-end infinite;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  color: #475569;
+}
+
+/* Gradient Ring with Circular Image */
+.hero-image {
+  padding: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+   
+  }
+ .hero-content h1 {
+    font-size: 2.2rem;
+  }
+    .hero-content p {
+    font-size: 1rem;
+  }
+  .hero-image {
+    max-width: 300px;
+    margin-top: 2rem;
+  }
+
+}

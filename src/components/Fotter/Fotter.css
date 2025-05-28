@@ -1,0 +1,17 @@
+.footer {
+  background-color: #0f172a;      /* Deep slate (matches your theme) */
+  color: #94a3b8;                 /* Soft slate text */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #1e293b; /* Optional subtle top border */
+}
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.85rem;
+    padding: 15px 10px;
+  }
+}

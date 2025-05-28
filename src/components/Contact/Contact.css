@@ -1,0 +1,20 @@
+.contact-section {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #e0f2fe, #f8fafc);
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px; 
+  max-width: 1000px;
+   /* margin: auto; */
+  flex-wrap: wrap;
+}
