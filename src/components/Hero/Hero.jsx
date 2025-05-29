@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section className="hero">
             <div className="hero-content">
-                <h1>Hi, I'm Avishek</h1>
+                <h1>Hi, I'm Avishek Subedi</h1>
                 <p> I'm a web developer.I create responsive websites using React, HTML, CSS, and JavaScript.</p>
             </div>
             <div className="hero-image">
