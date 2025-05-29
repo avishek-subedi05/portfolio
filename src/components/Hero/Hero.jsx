@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "./assets/images/profile.jpg"; // adjust path based on file location
 import "./hero.css";
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
                 <p> I'm a web developer.I create responsive websites using React, HTML, CSS, and JavaScript.</p>
             </div>
             <div className="hero-image">
-                <img src="src/assets/images/profile.jpg" alt="My Profile" />
+                <img src={profile} alt="My Profile" />
             </div>
         </section>
     );
