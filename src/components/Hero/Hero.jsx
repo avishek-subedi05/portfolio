@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./assets/images/profile.jpg"; // adjust path based on file location
+import profile from "../assets/images/profile.jpg"; // adjust path based on file location
 import "./hero.css";
 const Hero = () => {
     return (
