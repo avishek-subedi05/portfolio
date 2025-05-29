@@ -1,11 +1,13 @@
 import React from 'react'
 import './About.css'
 import Project from '../Projects/Project'
+import portfolioImg from "../../assets/images/portfolio-image.png";
+
 
 const About = () => {
     return (
         <div>
-           
+
             <section className="about">
                 <div className="about-text">
                     <h2>About Me</h2>
@@ -28,7 +30,7 @@ const About = () => {
                 <Project
                     title="Portfolio Website"
                     description="My personal website built with React showcasing my skills and work."
-                    image="src/assets/images/portfoli image.png"
+                    image={portfolioImg}
                     link="../"
                 />
 
